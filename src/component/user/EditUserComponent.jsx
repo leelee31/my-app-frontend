@@ -123,4 +123,4 @@ const style = {
     justifyContent: 'center'
 }
 
-export default EditUserComponent;
+export default getNavigate(EditUserComponent);
