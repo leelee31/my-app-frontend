@@ -16,7 +16,7 @@ jobs:
         with:
           path: node_modules
           key: ${{ runner.OS }}-build-${{ hashFiles('**/package-lock.json') }}
-          restore-key: |
+          restore-keys: |
             ${{ runner.OS }}-build-
             ${{ runner.OS }}-
     
