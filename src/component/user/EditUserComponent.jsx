@@ -42,15 +42,6 @@ class EditUserComponent extends Component {
             .catch(error => {
                 console.log('saveUser() Error:', error);
             })
-
-        let user = {
-            userName: this.state.userName,
-            password: this.state.password,
-            firstName: this.state.firstName,
-            lastName: this.state.lastName,
-            age: this.state.age,
-            salary: this.state.salary
-        }
     }
 
     onChange = (e) => {
