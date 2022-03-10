@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const USER_API_BASE_URL = "http://13.209.109.252:80/users";
+const USER_API_BASE_URL = "http://13.209.109.252:8080/users";
 
 class ApiService {
     fetchUsers() {
